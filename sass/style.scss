@@ -1,6 +1,8 @@
-$font-stack: Verdana, sans-serif;
-$text-color: #333;
+$font-stack: Georgia;
+$text-color: black;
+$background-color: red;
 
 body {
   font: 100% $font-stack;
+background-color: $background-color;
 }
