@@ -1,11 +1,8 @@
-$font-stack: Georgia;
+$font-stack: 'Open Sans';
 $text-color: black;
-$background-color: red;
+$background-color: blue;
 
 body {
   font: 100% $font-stack;
   background-color: $background-color;
-}
-#logomain {
-  margin: auto;
 }
