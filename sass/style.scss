@@ -6,3 +6,11 @@ body {
   font: 100% $font-stack;
   background-color: $background-color;
 }
+
+header {
+  display: flex;
+}
+
+#logomain {
+  margin: auto;
+}
