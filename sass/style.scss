@@ -66,11 +66,14 @@ padding: 80px 0 0 0;
 }
  .bodyQuestion-mainQuestionPage-nextButton--center {
    @extend .bodyMain-mainMainPage-sectionButton--center-startButton-center;
+   background-color: #FFA91F;
 }
 .bodyQuestion-questionPage {
   @include display-flex;
   justify-content: flex-start;
 }
+/* ending question page */
+/* styling result page */
 .bodyResult {
   background-color: #0FCBBF;
   color: $text-color;
