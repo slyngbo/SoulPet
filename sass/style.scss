@@ -13,6 +13,9 @@ $font-size: 24px;
 @mixin shadow-button-hover {
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+/* -MAIN PAGE- */
+
 .bodyMain {
   font: 100% $font-stack;
   color: $text-color;
@@ -51,6 +54,8 @@ padding: 80px 0 0 0;
 .bodyMain-mainMainPage-sectionButton--center-startButton-center:hover {
   @include shadow-button-hover;
 }
+/* - MAIN PAGE END - */
+
 /* Styling the question page */
 .bodyQuestion {
   background-color: blue;
@@ -62,6 +67,9 @@ padding: 80px 0 0 0;
   @include display-flex;
   justify-content: flex-start;
 }
-.bodyQuestion-questionPage-logoQuestion--positionLeftCorner {
-
+.bodyResult {
+  background-color: #0FCBBF;
+  color: $text-color;
+  font: 100% $font-stack;
+  text-align: center;
 }
