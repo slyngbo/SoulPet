@@ -58,40 +58,16 @@ padding: 80px 0 0 0;
 
 /* Styling the question page */
 .bodyQuestion {
-  background-color: blue;
+  background-color: #FFD842;
   color: $text-color;
   font: 100% $font-stack;
   text-align: center;
+  font-size: $font-size;
 }
-<<<<<<< HEAD
  .bodyQuestion-mainQuestionPage-nextButton--center {
-<<<<<<< HEAD
-   @@include margin-auto;
-=======
-   @include margin-auto;
->>>>>>> 2ec352e0affe2733839a101726832570de304ae3
-   margin-top: 70px;
-   padding: 25px 50px
-   font-size:$font-size;
-   color: $text-color;
-   background-color: #7F266C;
-   border-radius:5px;
-   border: 0;
-   @include shadow-button;
+   @extend .bodyMain-mainMainPage-sectionButton--center-startButton-center;
+   background-color: #FFB400;
    }
-
-@mixin shadow-button {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-@mixin shadow-button-hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-=======
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> ddae19ee6841739e0166c1ea5f162945b24e6025
->>>>>>> 2ec352e0affe2733839a101726832570de304ae3
 .bodyQuestion-questionPage {
   @include display-flex;
   justify-content: flex-start;
@@ -102,29 +78,18 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   background-color: #0FCBBF;
   color: $text-color;
   font: 100% $font-stack;
-<<<<<<< HEAD
-  text-align: center;j
-=======
   text-align: center;
-<<<<<<< HEAD
-=======
   font-size: $font-size;
->>>>>>> ddae19ee6841739e0166c1ea5f162945b24e6025
->>>>>>> 2ec352e0affe2733839a101726832570de304ae3
 }
 .bodyResult-headerResultPage {
   @extend .bodyQuestion-questionPage;
->>>>>>> c924644aa757dfa86913a9c9ea7d434fc8d81778
 }
-<<<<<<< HEAD
-.bodyMain-mainMainPage-sectionButton--center-startButton-center {
-  @extend .bodyResult-mainResultPage-shareButton--center;
-=======
-<<<<<<< HEAD
-=======
+.bodyResult-mainResultPage-shareButton--center {
+  @extend  .bodyMain-mainMainPage-sectionButton--center-startButton-center;
+  background-color: #0A8A82;
+  margin-top: 30px;
+}
 .bodyResult-mainResultPage-heading-bigSize {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
->>>>>>> 2ec352e0affe2733839a101726832570de304ae3
 }
->>>>>>> ddae19ee6841739e0166c1ea5f162945b24e6025
