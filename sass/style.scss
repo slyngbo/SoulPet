@@ -1,16 +1,56 @@
 $font-stack: 'Open Sans';
-$text-color: black;
-$background-color: blue;
-
+$text-color: white;
+$background-color: #C9009C;
+$font-size: 24px;
+@mixin display-flex {
+  display: flex;
+}
+@mixin margin-auto {
+  margin: auto;
+}
+@mixin shadow-button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+@mixin shadow-button-hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 body {
   font: 100% $font-stack;
+  color: $text-color;
   background-color: $background-color;
 }
 
 header {
-  display: flex;
+  @include display-flex;
 }
 
 #logomain {
-  margin: auto;
+@include margin-auto;
+  padding-top: 70px;
+}
+
+.frontPageText {
+  font-size: $font-size;
+    @include display-flex;
+}
+p {
+@include margin-auto;
+padding: 60px 0 0 0;
+}
+.frontPageButton {
+  @extend .frontPageText;
+}
+button {
+  @include margin-auto;
+  margin-top: 50px;
+  padding: 16px 32px;
+  font-size: $font-size;
+  color: $text-color;
+  background-color: #7F266C;
+  border-radius: 5px;
+  border: 0;
+  @include shadow-button;
+}
+button:hover {
+  @include shadow-button-hover;
 }
