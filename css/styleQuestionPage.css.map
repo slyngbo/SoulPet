@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAKA,IAAK;EACH,gBAAgB,EAJC,IAAI;EAKrB,KAAK,EANM,KAAK;EAOhB,IAAI,EAAE,gBAAgB",
+"sources": ["../sass/styleQuestionPage.scss"],
 "names": [],
 "file": "styleQuestionPage.css"
 }

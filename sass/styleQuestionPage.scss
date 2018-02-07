@@ -1,0 +1,10 @@
+$font-stack: 'Open Sans';
+$text-color: white;
+$background-color: blue;
+$font-size: 24px;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font: 100% $font-stack;
+}
