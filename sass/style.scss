@@ -36,6 +36,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 .bodyMain-mainMainPage-sectionText--center-paragraph--center {
 @include margin-auto;
 padding: 80px 0 0 0;
+text-align: center;
 }
 .bodyMain-mainMainPage-sectionButton--center {
   @extend .bodyMain-mainMainPage-sectionText--center;
@@ -73,6 +74,9 @@ padding: 80px 0 0 0;
   @include display-flex;
   justify-content: flex-start;
 }
+
+
+
 /* ending question page */
 /* styling result page */
 .bodyResult {
