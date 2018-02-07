@@ -14,31 +14,31 @@ $font-size: 24px;
 @mixin shadow-button-hover {
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-body {
+.bodyMain {
   font: 100% $font-stack;
   color: $text-color;
   background-color: $background-color;
 }
-.headerMainPage {
+.bodyMain-headerMainPage {
   @include display-flex;
 }
 
-.headerMainPage-logoMain--center {
+.bodyMain-headerMainPage-logoMain--center {
 @include margin-auto;
   padding-top: 70px;
 }
-.mainMainPage-sectionText--center {
+.bodyMain-mainMainPage-sectionText--center {
   font-size: $font-size;
     @include display-flex;
 }
-.mainMainPage-sectionText--center-paragraph--center {
+.bodyMain-mainMainPage-sectionText--center-paragraph--center {
 @include margin-auto;
 padding: 60px 0 0 0;
 }
-.mainMainPage-sectionButton--center {
-  @extend .mainMainPage-sectionText--center;
+.bodyMain-mainMainPage-sectionButton--center {
+  @extend .bodyMain-mainMainPage-sectionText--center;
 }
-.mainMainPage-sectionButton--center-startButton-center {
+.bodyMain-mainMainPage-sectionButton--center-startButton-center {
   @include margin-auto;
   margin-top: 50px;
   padding: 16px 32px;
@@ -49,6 +49,6 @@ padding: 60px 0 0 0;
   border: 0;
   @include shadow-button;
 }
-.mainMainPage-sectionButton--center-startButton-center:hover {
+.bodyMain-mainMainPage-sectionButton--center-startButton-center:hover {
   @include shadow-button-hover;
 }
