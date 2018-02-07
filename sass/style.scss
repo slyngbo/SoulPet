@@ -19,26 +19,26 @@ body {
   color: $text-color;
   background-color: $background-color;
 }
-header {
+.headerMainPage {
   @include display-flex;
 }
 
-#logomain {
+.headerMainPage-logoMain--center {
 @include margin-auto;
   padding-top: 70px;
 }
-.frontPageText {
+.mainMainPage-sectionText--center {
   font-size: $font-size;
     @include display-flex;
 }
-p {
+.mainMainPage-sectionText--center-paragraph--center {
 @include margin-auto;
 padding: 60px 0 0 0;
 }
-.frontPageButton {
-  @extend .frontPageText;
+.mainMainPage-sectionButton--center {
+  @extend .mainMainPage-sectionText--center;
 }
-button {
+.mainMainPage-sectionButton--center-startButton-center {
   @include margin-auto;
   margin-top: 50px;
   padding: 16px 32px;
@@ -49,6 +49,6 @@ button {
   border: 0;
   @include shadow-button;
 }
-button:hover {
+.mainMainPage-sectionButton--center-startButton-center:hover {
   @include shadow-button-hover;
 }
