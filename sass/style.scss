@@ -36,6 +36,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 .bodyMain-mainMainPage-sectionText--center-paragraph--center {
 @include margin-auto;
 padding: 80px 0 0 0;
+text-align: center;
 }
 .bodyMain-mainMainPage-sectionButton--center {
   @extend .bodyMain-mainMainPage-sectionText--center;
@@ -58,13 +59,14 @@ padding: 80px 0 0 0;
 
 /* Styling the question page */
 .bodyQuestion {
-  background-color: #FFD842;
+  background-color: #FF6E00;
   color: $text-color;
   font: 100% $font-stack;
   text-align: center;
-  font-size: $font-size;
+  font-size: 30px;
 }
  .bodyQuestion-mainQuestionPage-nextButton--center {
+<<<<<<< HEAD
    @include margin-auto;
    margin-top: 70px;
    padding: 25px 50px;
@@ -74,11 +76,23 @@ padding: 80px 0 0 0;
    border-radius: 5px;
    border: 0;
    @include shadow-button;
+=======
+   @extend .bodyMain-mainMainPage-sectionButton--center-startButton-center;
+   background-color: #FFA91F;
+   margin-bottom: 50px;
+>>>>>>> 7b5da8b28404e37c975ffd84752aeefcdce2a608
 }
 .bodyQuestion-questionPage {
   @include display-flex;
   justify-content: flex-start;
 }
+.bodyQuestion p {
+  font-weight: bold;
+}
+
+
+/* ending question page */
+/* styling result page */
 .bodyResult {
   background-color: #0FCBBF;
   color: $text-color;
@@ -89,13 +103,11 @@ padding: 80px 0 0 0;
 .bodyResult-headerResultPage {
   @extend .bodyQuestion-questionPage;
 }
-
 .bodyResult-mainResultPage-shareButton--center {
   @extend  .bodyMain-mainMainPage-sectionButton--center-startButton-center;
   background-color: #0A8A82;
   margin-top: 30px;
 }
-
 .bodyResult-mainResultPage-heading-bigSize {
   font-size: 40px;
   font-weight: bold;
