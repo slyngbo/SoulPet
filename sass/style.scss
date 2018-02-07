@@ -19,7 +19,6 @@ body {
   color: $text-color;
   background-color: $background-color;
 }
-
 header {
   @include display-flex;
 }
@@ -28,7 +27,6 @@ header {
 @include margin-auto;
   padding-top: 70px;
 }
-
 .frontPageText {
   font-size: $font-size;
     @include display-flex;
