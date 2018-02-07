@@ -59,11 +59,11 @@ text-align: center;
 
 /* Styling the question page */
 .bodyQuestion {
-  background-color: #FFD842;
+  background-color: #FF6E00;
   color: $text-color;
   font: 100% $font-stack;
   text-align: center;
-  font-size: $font-size;
+  font-size: 30px;
 }
  .bodyQuestion-mainQuestionPage-nextButton--center {
    @extend .bodyMain-mainMainPage-sectionButton--center-startButton-center;
@@ -74,7 +74,9 @@ text-align: center;
   @include display-flex;
   justify-content: flex-start;
 }
-
+.bodyQuestion p {
+  font-weight: bold;
+}
 
 
 /* ending question page */
