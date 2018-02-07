@@ -63,3 +63,39 @@ padding: 80px 0 0 0;
   font: 100% $font-stack;
   text-align: center;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ .bodyQuestion-mainQuestionPage-nextButton--center {
+   @@include margin-auto;
+   margin-top: 70px;
+   padding: 25px 50px
+   font-size:$font-size;
+   color: $text-color;
+   background-color: #7F266C;
+   border-radius:5px;
+   border: 0;
+   @include shadow-button;
+   }
+
+@mixin shadow-button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+@mixin shadow-button-hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+=======
+.bodyQuestion-questionPage {
+  @include display-flex;
+  justify-content: flex-start;
+}
+.bodyResult {
+  background-color: #0FCBBF;
+  color: $text-color;
+  font: 100% $font-stack;
+  text-align: center;
+}
+.bodyResult-headerResultPage {
+  @extend .bodyQuestion-questionPage;
+>>>>>>> c924644aa757dfa86913a9c9ea7d434fc8d81778
+}
+>>>>>>> 43a7e34846a576b9a3eb479f136cebded5124a61
