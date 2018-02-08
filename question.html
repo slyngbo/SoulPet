@@ -60,11 +60,11 @@
   What is your favorite color?
 </p>
 <form action="" class="bodyQuestion-mainQuestionPage-radiobuttons--center">
-<input type="radio" name="color" value="blue">Blue
-<input type="radio" name="color" value="orange">Orange
-<input type="radio" name="color" value="black">Black
-<input type="radio" name="color" value="beige">Beige
-<input type="radio" name="color" value="green">Green
+<div v-if="type==='blue'"><input type="radio" name="color" value="blue">Blue</div>
+<div v-if="type==='orange'"><input type="radio" name="color" value="orange">Orange</div>
+<div v-if="type==='black'"><input type="radio" name="color" value="black">Black</div>
+<div v-if="type==='beige'"><input type="radio" name="color" value="beige">Beige</div>
+<div v-if="type==='green'"><input type="radio" name="color" value="green">Green</div>
 </form>
 </section>
 <section class="bodyQuestion-mainQuestionPage-sectionButton-center">
