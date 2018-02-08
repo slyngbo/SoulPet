@@ -3,3 +3,4 @@ var app6 = new Vue({
   data: {
     message: 'Enter your name here!'
   }
+})
