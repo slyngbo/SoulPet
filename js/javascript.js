@@ -4,5 +4,3 @@ var app6 = new Vue({
     message: ''
   }
 })
-var classDisplayNone = document.getElementsByClassName('bodyQuestion-mainQuestionPage-sectionQuestionOne--center');
-classDisplayNone.classList.add ('displayBlock');
