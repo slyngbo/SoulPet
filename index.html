@@ -16,17 +16,12 @@
   </header>
 
   <main class="bodyMain-mainMainPage">
-
-
-
-    <section class="bodyMain-mainMainPage-sectionText--center">
-      <div id="app-6">
-    <input v-model="message">
-  <p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">{{ 'Hello ' + message }}</p>
-  <p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">{{ 'This is a quiz to tell you which animal you should get as a life companion!'}}</p>
-  <p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">{{ ' Answer these 5 questions and find out your destiny!'}}</p>
-</div><!-- SHOULD "THIS IS A QUIZ TO TELL" + "ANSWER THESE 5" BE A PART OF THE DIV ID=APP-6? I KNOW IT LOOKS BETTER WHEN THEY ARE A PART OF THE DIV ELEMENT....-->
-
+      <p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">Enter your name here</p>
+<section class="bodyMain-mainMainPage-sectionText--center">
+  <div id="app-6">
+  <input v-model="message">
+  <p>{{ 'Hello ' + message }}</p></div>
+  <p class="bodyMain-mainMainPage-sectionText--center-paragraph--center">This is a quiz to tell you which animal you should get as a life companion! <br>Answer these 5 questions and find out your destiny!</p>
 
     </section>
 
