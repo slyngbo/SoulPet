@@ -4,9 +4,3 @@ var app6 = new Vue({
     message: ''
   }
 })
-function goToQuestionPage () {
-  location.href="google.com";
-}
-var startButton = getElementById('startbutton');
-
-startButton.onclick = goToQuestionPage();
