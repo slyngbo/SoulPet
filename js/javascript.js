@@ -7,5 +7,6 @@ var app6 = new Vue({
 
 var startButton = getElementsByClassName ('bodyMain-mainMainPage-sectionButton--center-startButton-center')
 function goToQuestionPage () {
-  startButton.click = window.location.href="question.html";
+  location.href="C:/SoulPet/question.html";
 }
+startButton.onclick = goToQuestionPage();
