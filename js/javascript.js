@@ -13,10 +13,10 @@ if (document.forms["colors"].color.value == "orange") {
 window.location.href = ""; return false;
 }
 if (document.forms["colors"].color.value == "black") {
-window.location.href = "results.html"; return false;
+window.location.href = ""; return false;
 }
 if (document.forms["colors"].color.value == "beige") {
-window.location.href = ""; return false;
+window.location.href = "resultstwo.html"; return false;
 }
 if (document.forms["colors"].color.value == "green") {
 window.location.href = ""; return false;
