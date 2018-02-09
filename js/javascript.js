@@ -4,9 +4,9 @@ var app6 = new Vue({
     message: ''
   }
 })
-
-var startButton = getElementsByClassName ('bodyMain-mainMainPage-sectionButton--center-startButton-center')
 function goToQuestionPage () {
-  location.href="C:/SoulPet/question.html";
+  location.href="google.com";
 }
+var startButton = getElementById('startbutton');
+
 startButton.onclick = goToQuestionPage();
