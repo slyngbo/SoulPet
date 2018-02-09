@@ -4,6 +4,7 @@ var app6 = new Vue({
     message: ''
   }
 })
+//favorite color controls which result page to show
 function myFunction() {
 if (document.forms["colors"].color.value == "blue") {
 window.location.href = "results.html"; return false;
