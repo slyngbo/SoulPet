@@ -21,4 +21,7 @@ window.location.href = "resultstwo.html"; return false;
 if (document.forms["colors"].color.value == "green") {
 window.location.href = ""; return false;
 }
+if (document.forms["colors"].color.value == "") {
+  alert("You'll have to choose your favorite color"); return false;
+}
 }
