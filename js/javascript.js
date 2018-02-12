@@ -25,17 +25,16 @@ function myFunction() {
 if (document.forms["colors"].color.value == "blue") {
 window.location.href = "results.html"; return false;
 }
-if (document.forms["colors"].color.value == "orange") {
-window.location.href = "resultsthree.html"; return false;
-}
-if (document.forms["colors"].color.value == "black") {
-window.location.href = "resultsfive.html"; return false;
-}
 if (document.forms["colors"].color.value == "beige") {
 window.location.href = "resultstwo.html"; return false;
+}
+if (document.forms["colors"].color.value == "orange") {
+window.location.href = "resultsthree.html"; return false;
 }
 if (document.forms["colors"].color.value == "green") {
 window.location.href = "resultsfour.html"; return false;
 }
-
+if (document.forms["colors"].color.value == "black") {
+window.location.href = "resultsfive.html"; return false;
+}
 }
